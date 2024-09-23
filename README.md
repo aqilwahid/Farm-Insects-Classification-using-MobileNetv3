@@ -145,22 +145,7 @@ Perbaikan berikut diterapkan untuk meningkatkan performa model dan kualitas outp
 ## Hasil
 
 Setelah melatih model dengan konfigurasi yang ditingkatkan, diperoleh hasil sebagai berikut:
-
-- **Akurasi Uji**: *misalnya, 92%*
-
-- **Laporan Klasifikasi**:
-
-  ```plaintext
-                    precision    recall  f1-score   support
-
-         Kelas 1       0.93      0.90      0.92        20
-         Kelas 2       0.95      0.94      0.94        18
-         ...
-
-        accuracy                           0.92       150
-       macro avg       0.92      0.92      0.92       150
-    weighted avg       0.92      0.92      0.92       150
-  ```
+![Alt text](Images/Matrix.png)
 
 ## Visualisasi
 
