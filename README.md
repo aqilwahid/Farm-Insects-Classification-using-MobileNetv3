@@ -1,5 +1,6 @@
 # Farm Insects Classification using MobileNetV3
 
+![Alt text](Images/Result.png)
 Proyek PyTorch Lightning untuk mengklasifikasikan 15 jenis serangga peternakan menggunakan MobileNetV3. Proyek ini bertujuan untuk membantu dalam mengidentifikasi serangga yang berpotensi berbahaya di lingkungan pertanian, memungkinkan pengguna untuk mengambil tindakan yang tepat guna melindungi peternakan mereka.
 
 ## Daftar Isi
