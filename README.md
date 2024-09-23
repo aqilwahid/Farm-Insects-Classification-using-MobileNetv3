@@ -102,45 +102,6 @@ Perbaikan berikut diterapkan untuk meningkatkan performa model dan kualitas outp
    wandb login
    ```
 
-## Penggunaan
-
-1. **Persiapkan Dataset**
-
-   Letakkan dataset Anda dalam direktori dengan struktur berikut:
-
-   ```plaintext
-   data_path/
-   ├── kelas1/
-   │   ├── img1.jpg
-   │   ├── img2.jpg
-   │   └── ...
-   ├── kelas2/
-   │   ├── img1.jpg
-   │   ├── img2.jpg
-   │   └── ...
-   └── ...
-   ```
-
-   Perbarui variabel `data_path` dalam kode untuk menunjuk ke lokasi dataset Anda.
-
-2. **Jalankan Skrip Pelatihan**
-
-   ```bash
-   python train.py
-   ```
-
-   - Skrip akan secara otomatis menangani pelatihan, validasi, dan pengujian.
-   - Log pelatihan dan metrik akan tersedia di dashboard Weights & Biases Anda.
-
-3. **Evaluasi Model**
-
-   - Setelah pelatihan, model akan dievaluasi pada set data uji.
-   - Laporan klasifikasi dan metrik akurasi akan ditampilkan.
-
-4. **Visualisasi Hasil**
-
-   - Skrip menyertakan fungsi untuk memvisualisasikan sampel pelatihan dan hasil uji.
-   - Plot akan ditampilkan menggunakan `matplotlib`.
 
 ## Hasil
 
@@ -156,31 +117,3 @@ Setelah melatih model dengan konfigurasi yang ditingkatkan, diperoleh hasil seba
 ### Contoh Hasil Uji
 
 ![Hasil Uji](images/test_results.png)
-
-*Catatan: Gambar di atas menunjukkan label sebenarnya dan prediksi untuk sampel gambar dari dataset.*
-
-## Kontribusi
-
-Kontribusi sangat dihargai! Silakan ikuti langkah-langkah berikut:
-
-1. **Fork** repository ini.
-
-2. **Buat branch baru**:
-
-   ```bash
-   git checkout -b fitur/nama-fitur-anda
-   ```
-
-3. **Commit perubahan Anda**:
-
-   ```bash
-   git commit -m 'Menambahkan fitur tertentu'
-   ```
-
-4. **Push ke branch**:
-
-   ```bash
-   git push origin fitur/nama-fitur-anda
-   ```
-
-5. **Buat pull request**.
