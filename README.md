@@ -110,10 +110,6 @@ Setelah melatih model dengan konfigurasi yang ditingkatkan, diperoleh hasil seba
 
 ## Visualisasi
 
-### Contoh Gambar Pelatihan
-
-![Gambar Pelatihan](images/training_samples.png)
-
-### Contoh Hasil Uji
+### Contoh Output
 
 ![Hasil Uji](images/test_results.png)
